@@ -1,6 +1,17 @@
 name: BasicJoinMessages
 version: '1.0.0'
 main: me.usainsrht.basicJoinMessages.BasicJoinMessages
-api-version: '1.18'
+api-version: '1.13'
 authors: [ UsainSrht ]
 description: Join message plugin with group and random message support.
+
+softdepend:
+  - PlaceholderAPI
+
+commands:
+  basicjoinmessages:
+    description: bjm reload command
+    usage: /basicjoinmessage reload
+    permission: basicjoinmessage.command
+    aliases:
+      - bjm

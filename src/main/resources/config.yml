@@ -1,0 +1,27 @@
+
+# for 1.8 servers, use &e color codes
+# for paper servers, use <yellow> color format, https://webui.advntr.dev/
+
+default:
+  join:
+    - "<yellow>%player% joined the game."
+    - "<yellow>%player% landed."
+  quit:
+    - "<yellow>%player% left the game."
+    - "<yellow>%player% is gone."
+
+groups:
+  admin:
+    permission: "group.admin"
+    join:
+      - ""
+    quit:
+      - ""
+  vip:
+    permission: "group.vip"
+    join:
+      - "<gold>Brace yourselves, VIP %player% has come."
+      - "<gold>VIP %player% joined the game."
+    quit:
+      - "<gold>Legends say: VIP %player% left."
+      - "<gold>VIP %player% left the game."
